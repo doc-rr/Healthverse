@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthverse - Your Friendly Health Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">🏥</div>
+                    <div class="logo-text">
+                        <h1>Healthverse</h1>
+                        <p>Your friendly health companion</p>
+                    </div>
+                </div>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Chat Messages Area -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Welcome message will be inserted here by JavaScript -->
+        </div>
+
+        <!-- Typing Indicator -->
+        <div class="typing-indicator hidden" id="typingIndicator">
+            <div class="typing-bubble">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Action Buttons -->
+        <div class="quick-actions" id="quickActions">
+            <h3>Quick Topics:</h3>
+            <div class="quick-buttons">
+                <button class="quick-btn" data-action="myths">🔍 Bust a Myth</button>
+                <button class="quick-btn" data-action="tips">💡 Daily Health Tips</button>
+                <button class="quick-btn" data-action="doctor">🏥 When to See a Doctor</button>
+                <button class="quick-btn" data-action="emergency">🚨 Emergency Info</button>
+            </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-container">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="chatInput" 
+                    placeholder="Ask me about health myths, tips, or medical advice..." 
+                    class="form-control chat-input"
+                    maxlength="500"
+                >
+                <button id="sendButton" class="btn btn--primary send-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22,2 15,22 11,13 2,9"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            <p><strong>⚠️ Medical Disclaimer:</strong> Healthverse provides general health information for educational purposes only. Always consult qualified healthcare professionals for medical advice, diagnosis, or treatment.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
