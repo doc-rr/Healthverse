@@ -13,7 +13,7 @@ class HealthverseChatbot {
             
             medicalMyths: [
                 {
-                    keywords: ["vaccine", "vaccination", "autism", "mercury", "myth", "myths"],
+                    keywords: ["vaccine", "vaccination", "autism", "mercury"],
                     response: "That's a common myth! 🧬 Vaccines do NOT cause autism. Multiple large-scale studies involving millions of children have consistently shown no link between vaccines and autism. The original study claiming this connection was fraudulent and retracted. Vaccines are one of the safest and most effective ways to prevent serious diseases. If you have concerns, discuss them with your healthcare provider who can provide personalized guidance. 💉✨"
                 },
                 {
